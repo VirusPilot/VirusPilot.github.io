@@ -8,7 +8,7 @@
   - TIS-B: Traffic Information Service–Broadcast by UAT ground stations
   - FIS-B: Flight Information Services-Broadcast by UAT ground station
 - 1090MHz
-  - ADS-B in: https://mode-s.org/1090mhz/
+  - ADS-B in: [The 1090 Megahertz Riddle] (https://mode-s.org/1090mhz)
   - ADS-B out: DO-260B Minimum Operational Performance Standards for 1090 MHz Extended Squitter Automatic Dependent Surveillance – Broadcast (ADS-B) and Traffic
 Information Services – Broadcast (TIS-B)
 ## DATA Protocols
