@@ -23,15 +23,19 @@
 - LilyGO T-Echo (SoftRF Badge Edition)
 - Seeed SenseCAP T1000-E (SoftRF Card Edition)
 - Elecrow ThinkNode M1 (SoftRF Handheld Edition)
-# Commercial Devices
+# Commercial Avionics Equipment
 - Air Avionics AT-1: https://www.air-avionics.com/?page_id=653&lang=de
-- PowerFLARM Flex: https://www.flarm.com/de/allgemeine-luftfahrt/powerflarm-flex/
+- PowerFLARM Flex: https://www.flarm.com/de/allgemeine-luftfahrt/powerflarm-flex
+- Avionix ADS-L Tracker: https://www.avionix-shop.eu/product/17946648/ads-l-tracker
+- Avionix AERO Tracker: https://www.avionix-shop.eu/product/14989526/aero-tracker
+- uAvionix SkyEcho II: https://uavionix.com/products/skyecho
+- PilotAware FX
 # OGN/ADSB Base Stations
 ## DIY
 - Hardware
 - Software setup: https://github.com/VirusPilot/ogn-pi34
 ## Commercial Equipment
-- https://avionix.eu
+- Avionix openAir multitrack receiver: https://www.avionix-shop.eu/product/14982358/openair-multitrack-receiver
 - https://jetvision.de
 ## Local Traffic Webpage (based on local OGN and/or ADSB receiver and optional OGN APRS feed)
 - https://github.com/b3nn0/ogn2dump1090
