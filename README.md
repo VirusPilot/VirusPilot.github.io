@@ -41,6 +41,9 @@ Information Services – Broadcast (TIS-B)
 - [Avionix ADS-L Tracker](https://www.avionix-shop.eu/product/17946648/ads-l-tracker): ADS-B/UAT/OGN/FANET/ADS-L in, OGN/ADS-L out
 - [Avionix AERO Tracker](https://www.avionix-shop.eu/product/14989526/aero-tracker): ADS-B/OGN/FANET/ADS-L in, SafeSky over mobile network
 - [uAvionix SkyEcho II](https://uavionix.com/products/skyecho)
+  - Primary receiver:  1090MHz ADS-B traffic receiver
+  - Secondary receiver: selectable between 978 MHz UAT ADS-B or 868 MHz FLARM (FLARM License required)
+  - 1090MHz ADS-B DO-260B Class A0 transmitter with SIL=1 (limited to 20W, only allowed in certain countries)
 - PilotAware FX
 # OGN/ADSB Base Stations
 ## DIY Hardware
