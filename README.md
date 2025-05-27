@@ -1,28 +1,28 @@
 # VirusPilot's Collision Avoidance Compilation of Information
 # Basics
 ## HF Protocols
-- 868MHz RX/TX (max. 25mW): OGN, FLARM, FANET, ADS-L, PilotAware
-- 869MHz RX/TX (max. 500mW): OGN, ADS-L
-- 869MHz RX/TX: PilotAware
-- 978MHz UAT (Universal Access Transceiver):
+- 868 MHz RX/TX (max. 25mW): OGN, FLARM, FANET, ADS-L, PilotAware
+- 869 MHz RX/TX (max. 500mW): OGN, ADS-L
+- 869 MHz RX/TX: PilotAware
+- 978 MHz UAT (Universal Access Transceiver):
   - TIS-B: Traffic Information Service–Broadcast by UAT ground stations
   - FIS-B: Flight Information Services-Broadcast by UAT ground station
-- 1090MHz
-  - ADS-B in: [The 1090 Megahertz Riddle] (https://mode-s.org/1090mhz)
+- 1090 MHz
+  - ADS-B in: [The 1090 Megahertz Riddle](https://mode-s.org/1090mhz)
   - ADS-B out: DO-260B Minimum Operational Performance Standards for 1090 MHz Extended Squitter Automatic Dependent Surveillance – Broadcast (ADS-B) and Traffic
 Information Services – Broadcast (TIS-B)
 ## DATA Protocols
-- OGN: http://wiki.glidernet.org/ogn-tracking-protocol
-- FLARM-NMEA: https://www.flarm.com/wp-content/uploads/2025/05/FTD-012-Data-Port-Interface-Control-Document-ICD-7.21.pdf
-- FANET: https://github.com/3s1d/fanet-stm32/blob/master/Src/fanet/radio/protocol.txt
-- ADS-L: https://www.easa.europa.eu/en/downloads/137503/en&ved=2ahUKEwjZ7s-Dt8ONAxVGnf0HHe__GKwQFnoECBoQAQ&usg=AOvVaw2E8m3UcifYigBUuZ0SVv-x
-- GDL90: https://www.faa.gov/sites/faa.gov/files/air_traffic/technology/adsb/archival/GDL90_Public_ICD_RevA.PDF
+- OGN: [OGN Tracking Protocol Specification](http://wiki.glidernet.org/ogn-tracking-protocol)
+- FLARM-NMEA: [FLARM Data Port Interface Specification](https://www.flarm.com/wp-content/uploads/2025/05/FTD-012-Data-Port-Interface-Control-Document-ICD-7.21.pdf)
+- FANET:[FANET Protocol Specification](https://github.com/3s1d/fanet-stm32/blob/master/Src/fanet/radio/protocol.txt)
+- ADS-L: [ADS-L Specification](https://www.easa.europa.eu/en/downloads/137503/en&ved=2ahUKEwjZ7s-Dt8ONAxVGnf0HHe__GKwQFnoECBoQAQ&usg=AOvVaw2E8m3UcifYigBUuZ0SVv-x)
+- GDL90: [GDL90 Specification](https://www.faa.gov/sites/faa.gov/files/air_traffic/technology/adsb/archival/GDL90_Public_ICD_RevA.PDF)
 # Alternative Means to transport Traffic Information
 - APPs for mobile phones (1090 traffic e.g. from adsbhub.org, 868/1090 traffic from OGN)
   - https://www.safesky.app
   - https://ccas.aero
 # Further Alternatives
-- https://github.com/glidernet/ogn-aprs-protocol/blob/067bdeb956bf414db3674841512c8e8a6a4d6c82/aprsmsgs.txt#L55
+- as definded in the [OGN APRS Specification](https://github.com/glidernet/ogn-aprs-protocol/blob/067bdeb956bf414db3674841512c8e8a6a4d6c82/aprsmsgs.txt#L55)
 # DIY Projects for General Aviation
 - https://github.com/stratux/stratux
 - https://github.com/VirusPilot/stratux-pi4 (with various build examples)
