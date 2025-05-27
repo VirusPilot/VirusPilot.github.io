@@ -54,8 +54,11 @@ Information Services – Broadcast (TIS-B)
 - Filtered Preamps (UK): https://store.uputronics.com
 - Cavity Filter (DE): https://shop.sysmocom.de/RF/Filters/
 ## DIY Software
-- Ready to use image for Raspberry Pi (Seb v0.3): http://download.glidernet.org/seb-ogn-rpi-image
-- Manual Software setup: https://github.com/VirusPilot/ogn-pi34
+- Ready to use Image for Raspberry Pi (Seb v0.3): http://download.glidernet.org/seb-ogn-rpi-image
+- Manual Software setup (https://github.com/VirusPilot/ogn-pi34):
+  - only OGN: https://github.com/VirusPilot/ogn-pi34/blob/master/install-pi34.sh
+  - ADSB/OGN: https://github.com/VirusPilot/ogn-pi34/blob/master/install-pi34-adsb.sh
+  - ADSB/OGN (in combination with ogn2dump1090): https://github.com/VirusPilot/ogn-pi34/blob/dev/install-pi34-ogn2dump1090.sh
 ## Commercial PnP Receiver Equipment
 - Avionix openAir multitrack receiver: https://www.avionix-shop.eu/product/14982358/openair-multitrack-receiver
 - Jetvision Air!Squitter: https://airsquitter.com
