@@ -1,11 +1,21 @@
 # VirusPilot's Collision Avoidance Compilation of Information
 # Basics
 ## HF Protocols
-- 868MHz: OGN, FLARM, FANET, ADS-L, PilotAware
-- 978MHz: UAT, FIS-B, TIS-B
-- 1090MHz: ADS-B
+- 868MHz RX/TX (max. 25mW): OGN, FLARM, FANET, ADS-L, PilotAware
+- 869MHz RX/TX (max. 500mW): OGN, ADS-L
+- 869MHz RX/TX: PilotAware
+- 978MHz UAT (Universal Access Transceiver):
+  - TIS-B: Traffic Information Service–Broadcast by UAT ground stations
+  - FIS-B: Flight Information Services-Broadcast by UAT ground station
+- 1090MHz
+  - ADS-B in
+  - ADS-B out
 ## DATA Protocols
-- OGN, (FLARM-)NMEA, FANET, ADS-L, GDL90
+- OGN: http://wiki.glidernet.org/ogn-tracking-protocol
+- FLARM-NMEA: https://www.flarm.com/wp-content/uploads/2025/05/FTD-012-Data-Port-Interface-Control-Document-ICD-7.21.pdf
+- FANET
+- ADS-L
+- GDL90
 # Alternative Means to transport Traffic Information
 - APPs for mobile phones (1090 traffic e.g. from adsbhub.org, 868/1090 traffic from OGN)
   - https://www.safesky.app
@@ -32,19 +42,22 @@
 - uAvionix SkyEcho II: https://uavionix.com/products/skyecho
 - PilotAware FX
 # OGN/ADSB Base Stations
-## DIY
+## DIY Hardware
 - SDRs: https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/
 - SDRs: https://de.flightaware.com/adsb/prostick/
 - SDRs: https://www.nooelec.com/store/sdr/sdr-receivers.html
-- Antennas and Cable (SK): https://vinnant.sk
-- Antennas and Cable (DE): https://www.wimo.com/de/antennen/empfangsantennen/ads-b-antennen
+- Antennas and Cables (SK): https://vinnant.sk
+- Antennas and Cables (DE): https://www.wimo.com/de/antennen/empfangsantennen/ads-b-antennen
+- Antennas, Cables, Accessories (DE): https://airbatt.de/Airfield-equipment_OGN
+- Antennas, Cables, Accessories (DE): https://webshop.jetvision.de/
 - Filtered Preamps (UK): https://store.uputronics.com
-- Cavity Filter: https://shop.sysmocom.de/RF/Filters/
-- https://airbatt.de/Airfield-equipment_OGN
-- Software setup: https://github.com/VirusPilot/ogn-pi34
-## Commercial Equipment
+- Cavity Filter (DE): https://shop.sysmocom.de/RF/Filters/
+## DIY Software
+- Ready to use image for Raspberry Pi (Seb v0.3): http://download.glidernet.org/seb-ogn-rpi-image
+- Manual Software setup: https://github.com/VirusPilot/ogn-pi34
+## Commercial PnP Receiver Equipment
 - Avionix openAir multitrack receiver: https://www.avionix-shop.eu/product/14982358/openair-multitrack-receiver
-- Jetvision Air!Squitter: https://jetvision.de
+- Jetvision Air!Squitter: https://airsquitter.com
 - PilotAware ATOM Station
 ## Traffic Webpage (based on local OGN and/or ADSB receivers and optional OGN APRS feed)
 - https://github.com/b3nn0/ogn2dump1090
