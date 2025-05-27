@@ -11,7 +11,7 @@
   - https://www.safesky.app
   - https://ccas.aero
 # Further Alternatives
-- see: https://github.com/glidernet/ogn-aprs-protocol/blob/master/aprsmsgs.txt
+- https://github.com/glidernet/ogn-aprs-protocol/blob/067bdeb956bf414db3674841512c8e8a6a4d6c82/aprsmsgs.txt#L55
 # DIY Projects for General Aviation
 - https://github.com/stratux/stratux
 - https://github.com/lyusupov/SoftRF
