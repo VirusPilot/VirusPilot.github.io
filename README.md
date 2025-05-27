@@ -14,6 +14,7 @@
 - https://github.com/glidernet/ogn-aprs-protocol/blob/067bdeb956bf414db3674841512c8e8a6a4d6c82/aprsmsgs.txt#L55
 # DIY Projects for General Aviation
 - https://github.com/stratux/stratux
+- https://github.com/VirusPilot/stratux-pi4 (with various build examples)
 - https://github.com/lyusupov/SoftRF
 - https://github.com/moshe-braner/SoftRF
 - https://github.com/gereic/GXAirCom
@@ -32,10 +33,18 @@
 - PilotAware FX
 # OGN/ADSB Base Stations
 ## DIY
-- Hardware
+- SDRs: https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/
+- SDRs: https://de.flightaware.com/adsb/prostick/
+- SDRs: https://www.nooelec.com/store/sdr/sdr-receivers.html
+- Antennas and Cable (SK): https://vinnant.sk
+- Antennas and Cable (DE): https://www.wimo.com/de/antennen/empfangsantennen/ads-b-antennen
+- Filtered Preamps (UK): https://store.uputronics.com
+- Cavity Filter: https://shop.sysmocom.de/RF/Filters/
+- https://airbatt.de/Airfield-equipment_OGN
 - Software setup: https://github.com/VirusPilot/ogn-pi34
 ## Commercial Equipment
 - Avionix openAir multitrack receiver: https://www.avionix-shop.eu/product/14982358/openair-multitrack-receiver
-- https://jetvision.de
-## Local Traffic Webpage (based on local OGN and/or ADSB receiver and optional OGN APRS feed)
+- Jetvision Air!Squitter: https://jetvision.de
+- PilotAware ATOM Station
+## Traffic Webpage (based on local OGN and/or ADSB receivers and optional OGN APRS feed)
 - https://github.com/b3nn0/ogn2dump1090
