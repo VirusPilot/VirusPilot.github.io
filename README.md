@@ -7,16 +7,22 @@
 ## DATA Protocols
 - OGN, (FLARM-)NMEA, FANET, ADS-L, GDL90
 # Alternative Means to transport Traffic Information
-- APPs for mobile phones (1090 traffic from adsbhub.org, 868 traffic from OGN)
-  - SafeSky
-  - CCAS
+- APPs for mobile phones (1090 traffic e.g. from adsbhub.org, 868/1090 traffic from OGN)
+  - https://www.safesky.app
+  - https://ccas.aero
 # Further Alternatives
 - see: https://github.com/glidernet/ogn-aprs-protocol/blob/master/aprsmsgs.txt
-# DIY Devices for General Aviation
-- Stratux
-- SoftRF (upstream):
-- SoftRF (Moshe Braner's fork):
-- GXAirCom
+# DIY Projects for General Aviation
+- https://github.com/stratux/stratux
+- https://github.com/lyusupov/SoftRF
+- https://github.com/moshe-braner/SoftRF
+- https://github.com/gereic/GXAirCom
+## Recommended DIY Devices
+- LilyGO T-Beam (SoftRF Prime Edition MkII)
+- LilyGO T-Beam S3 Supreme (SoftRF Prime Edition MkIII)
+- LilyGO T-Echo (SoftRF Badge Edition)
+- Seeed SenseCAP T1000-E (SoftRF Card Edition)
+- Elecrow ThinkNode M1 (SoftRF Handheld Edition)
 # Commercial Devices
 - Air Avionics AT-1: https://www.air-avionics.com/?page_id=653&lang=de
 - PowerFLARM Flex: https://www.flarm.com/de/allgemeine-luftfahrt/powerflarm-flex/
