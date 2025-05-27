@@ -14,7 +14,7 @@ Information Services – Broadcast (TIS-B)
 ## DATA Protocols
 - OGN: [OGN Tracking Protocol Specification](http://wiki.glidernet.org/ogn-tracking-protocol)
 - FLARM-NMEA: [FLARM Data Port Interface Specification](https://www.flarm.com/wp-content/uploads/2025/05/FTD-012-Data-Port-Interface-Control-Document-ICD-7.21.pdf)
-- FANET:[FANET Protocol Specification](https://github.com/3s1d/fanet-stm32/blob/master/Src/fanet/radio/protocol.txt)
+- FANET: [FANET Protocol Specification](https://github.com/3s1d/fanet-stm32/blob/master/Src/fanet/radio/protocol.txt)
 - ADS-L: [ADS-L Specification](https://www.easa.europa.eu/en/downloads/137503/en&ved=2ahUKEwjZ7s-Dt8ONAxVGnf0HHe__GKwQFnoECBoQAQ&usg=AOvVaw2E8m3UcifYigBUuZ0SVv-x)
 - GDL90: [GDL90 Specification](https://www.faa.gov/sites/faa.gov/files/air_traffic/technology/adsb/archival/GDL90_Public_ICD_RevA.PDF)
 # Alternative Means to transport Traffic Information
@@ -36,11 +36,11 @@ Information Services – Broadcast (TIS-B)
 - Seeed SenseCAP T1000-E (SoftRF Card Edition)
 - Elecrow ThinkNode M1 (SoftRF Handheld Edition)
 # Commercial Avionics Equipment
-- Air Avionics AT-1: https://www.air-avionics.com/?page_id=653&lang=de
-- PowerFLARM Flex: https://www.flarm.com/de/allgemeine-luftfahrt/powerflarm-flex
-- Avionix ADS-L Tracker: https://www.avionix-shop.eu/product/17946648/ads-l-tracker
-- Avionix AERO Tracker: https://www.avionix-shop.eu/product/14989526/aero-tracker
-- uAvionix SkyEcho II: https://uavionix.com/products/skyecho
+- [Air Avionics AT-1](https://www.air-avionics.com/?page_id=653&lang=de): ADS-B in, FLARM in/out
+- [PowerFLARM Flex](https://www.flarm.com/de/allgemeine-luftfahrt/powerflarm-flex): ADS-B in, FLARM in/out
+- [Avionix ADS-L Tracker](https://www.avionix-shop.eu/product/17946648/ads-l-tracker): ADS-B/UAT/OGN/FANET/ADS-L in, OGN/ADS-L out
+- [Avionix AERO Tracker](https://www.avionix-shop.eu/product/14989526/aero-tracker): ADS-B/OGN/FANET/ADS-L in, SafeSky over mobile network
+- [uAvionix SkyEcho II](https://uavionix.com/products/skyecho)
 - PilotAware FX
 # OGN/ADSB Base Stations
 ## DIY Hardware
@@ -57,8 +57,8 @@ Information Services – Broadcast (TIS-B)
 - Ready to use Image for Raspberry Pi (Seb v0.3): http://download.glidernet.org/seb-ogn-rpi-image
 - Manual Software setup (https://github.com/VirusPilot/ogn-pi34):
   - only OGN: https://github.com/VirusPilot/ogn-pi34/blob/master/install-pi34.sh
-  - ADSB/OGN: https://github.com/VirusPilot/ogn-pi34/blob/master/install-pi34-adsb.sh
-  - ADSB/OGN (in combination with ogn2dump1090): https://github.com/VirusPilot/ogn-pi34/blob/dev/install-pi34-ogn2dump1090.sh
+  - ADS-B/OGN: https://github.com/VirusPilot/ogn-pi34/blob/master/install-pi34-adsb.sh
+  - ADS-B/OGN (in combination with ogn2dump1090): https://github.com/VirusPilot/ogn-pi34/blob/dev/install-pi34-ogn2dump1090.sh
 ## Commercial PnP Receiver Equipment
 - Avionix openAir multitrack receiver: https://www.avionix-shop.eu/product/14982358/openair-multitrack-receiver
 - Jetvision Air!Squitter: https://airsquitter.com
