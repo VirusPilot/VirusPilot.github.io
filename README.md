@@ -63,8 +63,8 @@ Information Services – Broadcast (TIS-B)
   - ADS-B/OGN: https://github.com/VirusPilot/ogn-pi34/blob/master/install-pi34-adsb.sh
   - ADS-B/OGN (in combination with ogn2dump1090): https://github.com/VirusPilot/ogn-pi34/blob/dev/install-pi34-ogn2dump1090.sh
 ## Commercial PnP Receiver Equipment
-- Avionix openAir multitrack receiver: https://www.avionix-shop.eu/product/14982358/openair-multitrack-receiver
-- Jetvision Air!Squitter: https://airsquitter.com
+- [Avionix openAir multitrack receiver](https://www.avionix-shop.eu/product/14982358/openair-multitrack-receiver)
+- [Jetvision Air!Squitter](https://airsquitter.com)
 - PilotAware ATOM Station
 ## Traffic Webpage (based on local OGN and/or ADSB receivers and optional OGN APRS feed)
 - https://github.com/b3nn0/ogn2dump1090
