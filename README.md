@@ -17,6 +17,10 @@ Information Services – Broadcast (TIS-B)
 - FANET: [FANET Protocol Specification](https://github.com/3s1d/fanet-stm32/blob/master/Src/fanet/radio/protocol.txt)
 - ADS-L: [ADS-L Specification](https://www.easa.europa.eu/en/downloads/137503/en&ved=2ahUKEwjZ7s-Dt8ONAxVGnf0HHe__GKwQFnoECBoQAQ&usg=AOvVaw2E8m3UcifYigBUuZ0SVv-x)
 - GDL90: [GDL90 Specification](https://www.faa.gov/sites/faa.gov/files/air_traffic/technology/adsb/archival/GDL90_Public_ICD_RevA.PDF)
+- [AVR/RAW/BINARY](https://github.com/firestuff/adsb-tools/blob/master/protocols/raw.md)
+- [SBS/Basestation](http://woodair.net/sbs/article/barebones42_socket_data.htm)
+- [BEAST](https://github.com/firestuff/adsb-tools/blob/master/protocols/beast.md)
+- [JSON](https://github.com/firestuff/adsb-tools/blob/master/protocols/json.md)
 # Alternative Means to transport Traffic Information
 - APPs for mobile phones (1090 traffic e.g. from adsbhub.org, 868/1090 traffic from OGN)
   - https://www.safesky.app
