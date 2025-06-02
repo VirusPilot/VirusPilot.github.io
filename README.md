@@ -5,10 +5,13 @@
 - 869 MHz (max. 500mW): **OGN**, **ADS-L**, **PilotAware**
 - 1090 MHz ES (Extended Squitter)
   - ADS-B in/out: [The 1090 Megahertz Riddle](https://mode-s.org/1090mhz)
-- 978 MHz UAT (Universal Access Transceiver), same functionality as 1090 MHz ES but with the following additional info:
-  - ADS-R: Rebroadcast of ADS-B information by UAT ground stations
-  - TIS-B: Traffic Information Service–Broadcast by UAT ground stations
-  - FIS-B: Flight Information Services-Broadcast by UAT ground stations
+- 978 MHz UAT (Universal Access Transceiver)
+  - same functionality as 1090 MHz ES
+  - ADS-R, TIS-B and FIS-B can be recieved in addition
+- 978 MHz UAT Ground Stations provide the following:
+  - ADS-R: Rebroadcast of ADS-B information
+  - TIS-B: Traffic Information Service–Broadcast
+  - FIS-B: Flight Information Services-Broadcast
 ## DATALINK Protocols used by Tracker Devices
 - OGN: [OGN Tracking Protocol Specification](http://wiki.glidernet.org/ogn-tracking-protocol)
 - FLARM-NMEA: [FLARM Data Port Interface Specification](https://www.flarm.com/wp-content/uploads/2025/05/FTD-012-Data-Port-Interface-Control-Document-ICD-7.21.pdf)
@@ -33,6 +36,7 @@
 - https://github.com/moshe-braner/SoftRF
 - https://github.com/gereic/GXAirCom
 ## Recommended DIY Devices
+- Stratux: Raspberry Pi 3, 4 or 5 + SDRs + Antennas + GPS
 - LilyGO T-Beam (SoftRF Prime Edition MkII)
 - LilyGO T-Beam S3 Supreme (SoftRF Prime Edition MkIII)
 - LilyGO T-Echo (SoftRF Badge Edition)
