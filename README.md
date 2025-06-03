@@ -1,6 +1,6 @@
 # VirusPilot's Collision Avoidance Compilation of Information
 # Basics
-## HF Protocols
+## Radio Protocols
 - 868 MHz (max. 25mW): **OGN**, **FLARM**, **FANET**, **ADS-L**, **PilotAware**
 - 869 MHz (max. 500mW): **OGN**, **ADS-L**, **PilotAware**
 - 1090 MHz ES (Extended Squitter)
@@ -12,13 +12,13 @@
   - ADS-R: Rebroadcast of ADS-B information
   - TIS-B: Traffic Information Service–Broadcast
   - FIS-B: Flight Information Services-Broadcast
-## DATALINK Protocols used by Tracker Devices
+## Data Protocols used by Tracker Devices
 - OGN: [OGN Tracking Protocol Specification](http://wiki.glidernet.org/ogn-tracking-protocol)
 - FLARM-NMEA: [FLARM Data Port Interface Specification](https://www.flarm.com/wp-content/uploads/2025/05/FTD-012-Data-Port-Interface-Control-Document-ICD-7.21.pdf)
 - FANET: [FANET Protocol Specification](https://github.com/3s1d/fanet-stm32/blob/master/Src/fanet/radio/protocol.txt)
-- ADS-L: [ADS-L Specification](https://www.easa.europa.eu/en/downloads/137503/en&ved=2ahUKEwjZ7s-Dt8ONAxVGnf0HHe__GKwQFnoECBoQAQ&usg=AOvVaw2E8m3UcifYigBUuZ0SVv-x)
+- SRD 860 ADS-L: [ADS-L Specification](https://www.easa.europa.eu/en/downloads/137503/en&ved=2ahUKEwjZ7s-Dt8ONAxVGnf0HHe__GKwQFnoECBoQAQ&usg=AOvVaw2E8m3UcifYigBUuZ0SVv-x)
 - GDL90: [GDL90 Specification](https://www.faa.gov/sites/faa.gov/files/air_traffic/technology/adsb/archival/GDL90_Public_ICD_RevA.PDF)
-## DATALINK Protocols used in Ground Stations
+## Datalink Protocols used in Ground Stations
 - [AVR/RAW/BINARY](https://github.com/firestuff/adsb-tools/blob/master/protocols/raw.md)
 - [BEAST](https://github.com/firestuff/adsb-tools/blob/master/protocols/beast.md)
 - [JSON](https://github.com/firestuff/adsb-tools/blob/master/protocols/json.md)
@@ -29,7 +29,7 @@
   - https://ccas.aero
 # Further Alternatives
 - as definded in the [OGN APRS Specification](https://github.com/glidernet/ogn-aprs-protocol/blob/067bdeb956bf414db3674841512c8e8a6a4d6c82/aprsmsgs.txt#L55/)
-# DIY Projects for General Aviation
+# DIY Collision Avoidance Projects for General Aviation
 - https://github.com/stratux/stratux
 - https://github.com/VirusPilot/stratux-pi4 (with various build examples)
 - https://github.com/lyusupov/SoftRF
@@ -42,7 +42,7 @@
 - LilyGO T-Echo (SoftRF Badge Edition)
 - Seeed SenseCAP T1000-E (SoftRF Card Edition)
 - Elecrow ThinkNode M1 (SoftRF Handheld Edition)
-# Commercial Avionics Equipment
+## Commercial Avionics Equipment
 - [Air Avionics AT-1](https://www.air-avionics.com/?page_id=653&lang=de/): ADS-B in, FLARM in/out
 - [PowerFLARM Flex](https://www.flarm.com/de/allgemeine-luftfahrt/powerflarm-flex/): ADS-B in, FLARM in/out
 - [Avionix ADS-L Tracker](https://www.avionix-shop.eu/product/17946648/ads-l-tracker/): ADS-B/UAT/OGN/FANET/ADS-L in, OGN/ADS-L out
@@ -52,13 +52,13 @@
   - Secondary receiver: selectable between 978 MHz UAT ADS-B or 868 MHz FLARM (FLARM License required)
   - 1090MHz ADS-B DO-260B Class A0 transmitter with SIL=1 (limited to 20W, only allowed in certain countries)
 - PilotAware FX
-# Chipsets
+## Chipsets
 - [ADSBee 1090](https://pantsforbirds.com/adsbee-1090/)
 - [Pong](https://pongradio.com/)
 - [GNS5892](https://www.gns-electronics.de/product/gns-5892r-low-power-low-cost-ads-b-modul/)
 - [Aerobits TT-SC1](https://www.aerobits.pl/product/tt-sc1/)
 - [FLARM](https://www.flarm.com/de/integration/)
-# OGN/ADSB Base Stations
+# OGN/ADS-B Base Stations
 ## DIY Hardware
 - SDRs: https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/
 - SDRs: https://de.flightaware.com/adsb/prostick/
