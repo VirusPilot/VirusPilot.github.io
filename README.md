@@ -75,6 +75,7 @@
   - only OGN: https://github.com/VirusPilot/ogn-pi34/blob/master/install-pi34.sh
   - ADS-B/OGN: https://github.com/VirusPilot/ogn-pi34/blob/master/install-pi34-adsb.sh
   - ADS-B/OGN (in combination with ogn2dump1090): https://github.com/VirusPilot/ogn-pi34/blob/dev/install-pi34-ogn2dump1090.sh
+- [Filip Chochol's nice explanation](https://chochol.io/en/hardware/ogn-receiver-installation-and-configuration-on-raspberry-pi/)
 ## Commercial PnP Equipment
 - [Avionix openAir multitrack receiver](https://www.avionix-shop.eu/product/14982358/openair-multitrack-receiver)
 - [Jetvision Air!Squitter](https://airsquitter.com)
