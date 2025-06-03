@@ -52,6 +52,12 @@
   - Secondary receiver: selectable between 978 MHz UAT ADS-B or 868 MHz FLARM (FLARM License required)
   - 1090MHz ADS-B DO-260B Class A0 transmitter with SIL=1 (limited to 20W, only allowed in certain countries)
 - PilotAware FX
+# Chipsets
+- [ADSBee 1090](https://pantsforbirds.com/adsbee-1090/)
+- [Pong](https://pongradio.com)
+- [GNS5892](https://www.gns-electronics.de/product/gns-5892r-low-power-low-cost-ads-b-modul/)
+- [Aerobits TT-SC1](https://www.aerobits.pl/product/tt-sc1/)
+- [FLARM](https://www.flarm.com/de/integration/)
 # OGN/ADSB Base Stations
 ## DIY Hardware
 - SDRs: https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/
