@@ -25,11 +25,11 @@
 - [BEAST](https://github.com/firestuff/adsb-tools/blob/master/protocols/beast.md)
 - [JSON](https://github.com/firestuff/adsb-tools/blob/master/protocols/json.md)
 - [SBS/Basestation](http://woodair.net/sbs/article/barebones42_socket_data.htm)
-# Alternative Means to transport Traffic Information
+# Alternative Means to transport Traffic Information (using mobile phone network up to 5000 ft)
 - APPs for mobile phones (1090 traffic e.g. from OpenSky or adsbhub.org, 868/1090 traffic from OGN)
-  - https://www.safesky.app
-  - https://ccas.aero
-  - https://www.airmate.aero
+  - https://www.safesky.app (provides GDL90 output to feed EFB Apps like SkyDemon or VFRnav)
+  - https://ccas.aero (provides GDL90 output to feed EFB Apps like SkyDemon or VFRnav)
+  - https://www.airmate.aero (displays traffic inline)
 # Further Tracking Alternatives
 - as definded in the [OGN APRS Specification](https://github.com/glidernet/ogn-aprs-protocol/blob/067bdeb956bf414db3674841512c8e8a6a4d6c82/aprsmsgs.txt#L55/)
 # DIY Collision Avoidance Projects for General Aviation
