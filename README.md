@@ -26,10 +26,11 @@
 - [JSON](https://github.com/firestuff/adsb-tools/blob/master/protocols/json.md)
 - [SBS/Basestation](http://woodair.net/sbs/article/barebones42_socket_data.htm)
 # Alternative Means to transport Traffic Information
-- APPs for mobile phones (1090 traffic e.g. from adsbhub.org, 868/1090 traffic from OGN)
+- APPs for mobile phones (1090 traffic e.g. from OpenSky or adsbhub.org, 868/1090 traffic from OGN)
   - https://www.safesky.app
   - https://ccas.aero
-# Further Alternatives
+  - https://www.airmate.aero
+# Further Tracking Alternatives
 - as definded in the [OGN APRS Specification](https://github.com/glidernet/ogn-aprs-protocol/blob/067bdeb956bf414db3674841512c8e8a6a4d6c82/aprsmsgs.txt#L55/)
 # DIY Collision Avoidance Projects for General Aviation
 - https://github.com/stratux/stratux
