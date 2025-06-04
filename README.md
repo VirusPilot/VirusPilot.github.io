@@ -1,11 +1,12 @@
 # VirusPilot's Collision Avoidance Compilation of Information
 # Basics
 ## Radio Protocols
-- 868 MHz (max. 25mW): **OGN**, **FLARM**, **FANET**, **ADS-L**, **PilotAware**
-- 869 MHz (max. 500mW): **OGN**, **ADS-L**, **PilotAware**
-- 1090 MHz ES (Extended Squitter)
+- 868 MHz (25 mW transmit power): **OGN**, **FLARM**, **FANET**, **ADS-L**, **PilotAware**
+- 869 MHz (500 mW transmit power): **OGN**, **ADS-L**, **PilotAware**
+- 1090 MHz ES (Extended Squitter, 200 W transmit power)
   - ADS-B in/out: [The 1090 Megahertz Riddle](https://mode-s.org/1090mhz)
-- 978 MHz UAT (Universal Access Transceiver, up to FL180)
+  - many Mode-S Transponders can be upgraded to ADS-B
+- 978 MHz UAT (Universal Access Transceiver, up to FL180, 10-20 W transmit power)
   - same functionality as 1090 MHz ES
   - ADS-R, TIS-B and FIS-B from Ground Stations
 - 978 MHz UAT Ground Stations provide the following:
@@ -51,7 +52,7 @@
 - [uAvionix SkyEcho II](https://uavionix.com/products/skyecho/)
   - Primary receiver:  1090MHz ADS-B traffic receiver
   - Secondary receiver: selectable between 978 MHz UAT ADS-B or 868 MHz FLARM (FLARM License required)
-  - 1090MHz ADS-B DO-260B Class A0 transmitter with SIL=1 (limited to 20W, only allowed in certain countries)
+  - 1090MHz ADS-B DO-260B Class A0 transmitter with SIL=1 (100 mW transmit power, only allowed in certain countries e.g. UK: CAP 1391)
 - PilotAware FX
 ## Chipsets
 - [ADSBee 1090](https://pantsforbirds.com/adsbee-1090/)
