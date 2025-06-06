@@ -21,7 +21,7 @@
     - squawk code
     - GNSS position
     - ground speed, sink/climb rate, track over ground
-  - many Mode-S Transponders can be upgraded to ADS-B out (up to SIL=3, depending on the certification)
+  - many Mode-S Transponders can be upgraded to ADS-B out (up to SIL=3, depending on the certification level)
 - 978 MHz: **UAT** (Universal Access Transceiver, 10-20 W transmit power)
   - same functionality as 1090 MHz ES ADS-B
   - only approved/used in the US and only up to FL180
