@@ -51,18 +51,22 @@ This is an effort to compile some fundamantal information about technologies for
 # Further Tracking Alternatives
 - as definded in the [OGN APRS Specification](https://github.com/glidernet/ogn-aprs-protocol/blob/067bdeb956bf414db3674841512c8e8a6a4d6c82/aprsmsgs.txt#L55/)
 # DIY Collision Avoidance Projects for General Aviation
-- https://github.com/stratux/stratux
-- https://github.com/VirusPilot/stratux-pi4 (same as above but with various build examples)
-- https://github.com/lyusupov/SoftRF
+- https://github.com/stratux/stratux (see https://github.com/VirusPilot/stratux-pi4 for various build examples)
+  - receives ADS-B, FLARM, OGN, FANET
+  - can be complemented with a TX module (e.g. T-Beam or T-Beam S3 Core)
 - https://github.com/moshe-braner/SoftRF
+  - supports FLARM/OGN TX and RX
+  - SoftRF fork with significant improvements (only available for T-Beam and T-Echo)
+  - can be complemented with a GNS5892 board to receive 1090 ES ADS-B
 - https://github.com/gereic/GXAirCom
+  - supports FANET+ TX and RX
 ## Recommended DIY Devices
 - Raspberry Pi 3, 4 or 5 + SDRs + Antennas + GPS (Stratux)
-- LilyGO T-Beam (SoftRF Prime Edition MkII)
-- LilyGO T-Beam S3 Supreme (SoftRF Prime Edition MkIII)
+- LilyGO T-Beam (SoftRF Prime Edition MkII, GXAirCom)
+- LilyGO T-Beam S3 Supreme (SoftRF Prime Edition MkIII, GXAirCom)
 - LilyGO T-Echo (SoftRF Badge Edition)
-- Seeed SenseCAP T1000-E (SoftRF Card Edition)
-- Elecrow ThinkNode M1 (SoftRF Handheld Edition)
+- Seeed SenseCAP T1000-E (SoftRF Card Edition, only supported by upstream SoftRF)
+- Elecrow ThinkNode M1 (SoftRF Handheld Edition, only supported by upstream SoftRF)
 ## Commercial Avionics Equipment
 - [Air Avionics AT-1](https://www.air-avionics.com/?page_id=653&lang=de/): ADS-B in, FLARM in/out
 - [PowerFLARM Flex](https://www.flarm.com/de/allgemeine-luftfahrt/powerflarm-flex/): ADS-B in, FLARM in/out
