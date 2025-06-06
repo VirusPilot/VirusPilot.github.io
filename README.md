@@ -1,13 +1,14 @@
 # VirusPilot's Collision Avoidance Compilation of Information
+This is an effort to compile some fundamantal information about technologies for collision avoidance in aviation. I started this just for myself but maybe this is also relevant for others that need some initial information.
 # Basics
 ## Radio Protocols
-- 868.2 - 868.4 MHz: **OGN**, **FLARM**, **FANET**, **ADS-L**, **PilotAware** (25 mW transmit power)
+- 868.2 - 868.4 MHz: **OGN**, **FLARM**, **FANET**, **ADS-L**, **PilotAware** (25 mW TX power)
   - amongst others, the following essential data is transmitted (and encrypted in case of FLARM):
     - GNSS position and altitude
     - ground speed, sink/climb rate, track over ground
     - aircraft ID (or ICAO hex code) and type
     - predicted flight path (FLARM only)
-- 869.525 MHz: **OGN**, **ADS-L**, **PilotAware** (500 mW transmit power)
+- 869.525 MHz: **OGN**, **ADS-L**, **PilotAware** (500 mW TX power)
 - 1090 MHz: **Mode-S** (200 W transmit power)
   - the following data is transmitted when interrogated (selective) by ground radar (using 1030 MHz) or by other aircraft:
     - ICAO hex code and callsign
@@ -51,7 +52,7 @@
 - as definded in the [OGN APRS Specification](https://github.com/glidernet/ogn-aprs-protocol/blob/067bdeb956bf414db3674841512c8e8a6a4d6c82/aprsmsgs.txt#L55/)
 # DIY Collision Avoidance Projects for General Aviation
 - https://github.com/stratux/stratux
-- https://github.com/VirusPilot/stratux-pi4 (with various build examples)
+- https://github.com/VirusPilot/stratux-pi4 (same as above but with various build examples)
 - https://github.com/lyusupov/SoftRF
 - https://github.com/moshe-braner/SoftRF
 - https://github.com/gereic/GXAirCom
@@ -70,7 +71,7 @@
 - [uAvionix SkyEcho II](https://uavionix.com/products/skyecho/)
   - Primary receiver:  1090MHz ADS-B traffic receiver
   - Secondary receiver: selectable between 978 MHz UAT ADS-B or 868 MHz FLARM (FLARM License required)
-  - 1090MHz ADS-B DO-260B Class A0 transmitter with SIL=1 (100 mW transmit power, currently only allowed in UK and Australia: CAP1391)
+  - 1090MHz ES ADS-B DO-260B Class A0 transmitter with SIL=1 (100 mW transmit power, currently only allowed in UK and Australia: CAP1391)
 - PilotAware FX
 ## Chipsets
 - [ADSBee 1090](https://pantsforbirds.com/adsbee-1090/)
@@ -102,3 +103,5 @@
 - PilotAware ATOM Station
 ## Traffic Webpage (based on local OGN and/or ADSB receivers and optional OGN APRS feed)
 - https://github.com/b3nn0/ogn2dump1090
+# More Stuff that won't fit in the above topics
+- tbd
