@@ -12,13 +12,15 @@
   - the following data is transmitted when interrogated (selective) by ground radar (using 1030 MHz) or by other aircraft:
     - ICAO hex code and callsign
     - barometric altitude
+    - squawk code
 - 1090 MHz: **Mode-S ES** (Extended Squitter, 200 W transmit power)
   - carries ADS-B (Automatic Dependent Surveillance - Broadcast): [The 1090 Megahertz Riddle](https://mode-s.org/1090mhz)
   - amongst others, the following essential data is transmitted (2 Hz update rate when airborne):
-    - GNSS position, barometric and GNSS altitude
+    - ICAO hex code, aircraft type and callsign
+    - barometric and GNSS altitude
+    - squawk code
+    - GNSS position
     - ground speed, sink/climb rate, track over ground
-    - ICAO hex code, type and callsign
-    - transponder code
   - many Mode-S Transponders can be upgraded to ADS-B out (up to SIL=3, depending on the certification)
 - 978 MHz: **UAT** (Universal Access Transceiver, 10-20 W transmit power)
   - same functionality as 1090 MHz ES ADS-B
