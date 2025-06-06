@@ -5,6 +5,11 @@
 - 869 MHz (500 mW transmit power): **OGN**, **ADS-L**, **PilotAware**
 - 1090 MHz ES (Extended Squitter, 200 W transmit power)
   - ADS-B in/out: [The 1090 Megahertz Riddle](https://mode-s.org/1090mhz)
+  - the following essential information is transmitted (2 Hz when airborne):
+    - callsign and ICAO hex code
+    - GNSS position, Baro and GNSS altitude
+    - ground speed, sink- or climb-rate, track over ground
+    - transponder code
   - many Mode-S Transponders can be upgraded to ADS-B
 - 978 MHz UAT (Universal Access Transceiver, up to FL180, 10-20 W transmit power)
   - same functionality as 1090 MHz ES
