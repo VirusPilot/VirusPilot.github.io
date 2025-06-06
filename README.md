@@ -2,19 +2,18 @@
 # Basics
 ## Radio Protocols
 - 868 MHz (25 mW transmit power): **OGN**, **FLARM**, **FANET**, **ADS-L**, **PilotAware**
-  - FLARM carries the following information (encrypted)
-    - GNSS position and GNSS altitude
-    - ground speed, sink- or climb-rate, track over ground
-    - aircraft type and ID
-    - predicted flight path
-    - alert levels and collision warnings
+  - amongst others, the following essential information is transmitted (and encrypted in case of FLARM):
+    - GNSS position and altitude
+    - ground speed, sink/climb rate, track over ground
+    - aircraft ID (or ICAO hex code) and type
+    - predicted flight path (FLARM only)
 - 869 MHz (500 mW transmit power): **OGN**, **ADS-L**, **PilotAware**
 - 1090 MHz ES (Extended Squitter, 200 W transmit power)
   - ADS-B in/out: [The 1090 Megahertz Riddle](https://mode-s.org/1090mhz)
-  - the following essential information is transmitted (2 Hz when airborne):
-    - callsign and ICAO hex code
-    - GNSS position, Baro and GNSS altitude
-    - ground speed, sink- or climb-rate, track over ground
+  - amongst others, the following essential information is transmitted (2 Hz update rate when airborne):
+    - ICAO hex code, type and callsign
+    - GNSS position, barometric and GNSS altitude
+    - ground speed, sink/climb rate, track over ground
     - transponder code
   - many Mode-S Transponders can be upgraded to ADS-B
 - 978 MHz UAT (Universal Access Transceiver, up to FL180, 10-20 W transmit power)
