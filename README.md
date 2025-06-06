@@ -8,14 +8,18 @@
     - aircraft ID (or ICAO hex code) and type
     - predicted flight path (FLARM only)
 - 869 MHz (500 mW transmit power): **OGN**, **ADS-L**, **PilotAware**
-- 1090 MHz ES (Extended Squitter, 200 W transmit power)
-  - ADS-B in/out information: [The 1090 Megahertz Riddle](https://mode-s.org/1090mhz)
+- 1090 MHz Mode-S (200 W transmit power)
+  - ICAO hex code and callsign
+  - barometric altitude
+  - only transmitted when interrogated (selective) by ground radar (using 1030 MHz) or other aircraft
+- 1090 MHz Mode-S ES (Extended Squitter, 200 W transmit power)
+  - carries ADS-B (Automatic Dependent Surveillance - Broadcast): [The 1090 Megahertz Riddle](https://mode-s.org/1090mhz)
   - amongst others, the following essential information is transmitted (2 Hz update rate when airborne):
     - GNSS position, barometric and GNSS altitude
     - ground speed, sink/climb rate, track over ground
     - ICAO hex code, type and callsign
     - transponder code
-  - many Mode-S Transponders can be upgraded to ADS-B
+  - many Mode-S Transponders can be upgraded to ADS-B out (up to SIL=3, depending on the certification)
 - 978 MHz UAT (Universal Access Transceiver, up to FL180, 10-20 W transmit power)
   - same functionality as 1090 MHz ES
   - ADS-R, TIS-B and FIS-B from Ground Stations
