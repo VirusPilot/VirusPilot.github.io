@@ -1,13 +1,13 @@
 # VirusPilot's Collision Avoidance Compilation of Information
 # Basics
 ## Radio Protocols
-- 868 MHz: **OGN**, **FLARM**, **FANET**, **ADS-L**, **PilotAware** (25 mW transmit power)
+- 868.2 - 868.4 MHz: **OGN**, **FLARM**, **FANET**, **ADS-L**, **PilotAware** (25 mW transmit power)
   - amongst others, the following essential data is transmitted (and encrypted in case of FLARM):
     - GNSS position and altitude
     - ground speed, sink/climb rate, track over ground
     - aircraft ID (or ICAO hex code) and type
     - predicted flight path (FLARM only)
-- 869 MHz: **OGN**, **ADS-L**, **PilotAware** (500 mW transmit power)
+- 869.525 MHz: **OGN**, **ADS-L**, **PilotAware** (500 mW transmit power)
 - 1090 MHz: **Mode-S** (200 W transmit power)
   - the following data is transmitted when interrogated (selective) by ground radar (using 1030 MHz) or by other aircraft:
     - ICAO hex code and callsign
@@ -70,7 +70,7 @@
 - [uAvionix SkyEcho II](https://uavionix.com/products/skyecho/)
   - Primary receiver:  1090MHz ADS-B traffic receiver
   - Secondary receiver: selectable between 978 MHz UAT ADS-B or 868 MHz FLARM (FLARM License required)
-  - 1090MHz ADS-B DO-260B Class A0 transmitter with SIL=1 (100 mW transmit power, only allowed in certain countries e.g. UK: CAP 1391)
+  - 1090MHz ADS-B DO-260B Class A0 transmitter with SIL=1 (100 mW transmit power, currently only allowed in UK and Australia: CAP1391)
 - PilotAware FX
 ## Chipsets
 - [ADSBee 1090](https://pantsforbirds.com/adsbee-1090/)
