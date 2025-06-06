@@ -2,6 +2,12 @@
 # Basics
 ## Radio Protocols
 - 868 MHz (25 mW transmit power): **OGN**, **FLARM**, **FANET**, **ADS-L**, **PilotAware**
+  - FLARM carries the following information (encrypted)
+    - GNSS position and GNSS altitude
+    - ground speed, sink- or climb-rate, track over ground
+    - aircraft type and ID
+    - predicted flight path
+    - alert levels and collision warnings
 - 869 MHz (500 mW transmit power): **OGN**, **ADS-L**, **PilotAware**
 - 1090 MHz ES (Extended Squitter, 200 W transmit power)
   - ADS-B in/out: [The 1090 Megahertz Riddle](https://mode-s.org/1090mhz)
