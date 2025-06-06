@@ -28,7 +28,7 @@
   - ADS-R: Rebroadcast of ADS-B information
   - TIS-B: Traffic Information Service–Broadcast
   - FIS-B: Flight Information Services-Broadcast
-## Data Protocols used by Tracker Devices
+## Data Protocols used by Tracker Devices and Avionics Equipment
 - OGN: [OGN Tracking Protocol Specification](http://wiki.glidernet.org/ogn-tracking-protocol)
 - FLARM-NMEA: [FLARM Data Port Interface Specification](https://www.flarm.com/wp-content/uploads/2025/05/FTD-012-Data-Port-Interface-Control-Document-ICD-7.21.pdf)
 - FANET: [FANET Protocol Specification](https://github.com/3s1d/fanet-stm32/blob/master/Src/fanet/radio/protocol.txt)
