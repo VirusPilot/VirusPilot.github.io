@@ -20,8 +20,9 @@
     - ICAO hex code, type and callsign
     - transponder code
   - many Mode-S Transponders can be upgraded to ADS-B out (up to SIL=3, depending on the certification)
-- 978 MHz: **UAT** (Universal Access Transceiver, up to FL180, 10-20 W transmit power)
-  - same functionality as 1090 MHz ES
+- 978 MHz: **UAT** (Universal Access Transceiver, 10-20 W transmit power)
+  - same functionality as 1090 MHz ES ADS-B
+  - only approved/used in the US and only up to FL180
   - ADS-R, TIS-B and FIS-B from Ground Stations
 - 978 MHz: **UAT Ground Stations** provide the following:
   - ADS-R: Rebroadcast of ADS-B information
