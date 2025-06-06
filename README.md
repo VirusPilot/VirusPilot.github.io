@@ -63,15 +63,15 @@
 - [FLARM](https://www.flarm.com/de/integration/)
 # OGN/ADS-B Base Stations
 ## DIY Hardware
-- SDRs: https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/
-- SDRs: https://de.flightaware.com/adsb/prostick/
-- SDRs: https://www.nooelec.com/store/sdr/sdr-receivers.html
+- SDRs:
+  - https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/
+  - https://www.nooelec.com/store/sdr/sdr-receivers.html
 - Antennas and Cables (SK): https://vinnant.sk
 - Antennas and Cables (DE): https://www.wimo.com/de/antennen/empfangsantennen/ads-b-antennen
 - Antennas, Cables, Accessories (DE): https://airbatt.de/Airfield-equipment_OGN
 - Antennas, Cables, Accessories (DE): https://webshop.jetvision.de/
 - Filtered Preamps (UK): https://store.uputronics.com
-- Cavity Filter (DE): https://shop.sysmocom.de/RF/Filters/
+- Cavity Filters (DE): https://shop.sysmocom.de/RF/Filters/
 ## DIY Software
 - Ready to use Image for Raspberry Pi (Seb v0.3): http://download.glidernet.org/seb-ogn-rpi-image
 - Manual Software setup (https://github.com/VirusPilot/ogn-pi34):
