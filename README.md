@@ -7,13 +7,15 @@ This is an effort to compile some fundamantal information about technologies for
     - GNSS position and altitude
     - ground speed, sink/climb rate, track over ground
     - aircraft ID (or ICAO hex code) and type
-    - predicted flight path (FLARM only)
+    - turn rate (FLARM only)
 - 869.525 MHz: **OGN**, **ADS-L**, **PilotAware** (500 mW TX power)
+
+Please note that the above ISM bands (including TX power limitations) are only applicable in Europe, other regions like US use 900 MHz, up to 100 mW and up to 65 channels.
 - 1090 MHz: **Mode-S** (200 W transmit power)
   - the following data is transmitted when interrogated (selective) by ground radar (using 1030 MHz) or by other aircraft:
-    - ICAO hex code and callsign
-    - barometric altitude
-    - squawk code
+    - ICAO hex code (all-call reply, DF=11)
+    - barometric altitude (surveillance reply, DF=4)
+    - squawk code (surveillance reply, DF=5)
 - 1090 MHz: **Mode-S ES** (Extended Squitter, 200 W transmit power)
   - carries ADS-B (Automatic Dependent Surveillance - Broadcast): [The 1090 Megahertz Riddle](https://mode-s.org/1090mhz)
   - amongst others, the following essential data is transmitted (2 Hz update rate when airborne):
@@ -23,16 +25,17 @@ This is an effort to compile some fundamantal information about technologies for
     - GNSS position
     - ground speed, sink/climb rate, track over ground
   - many Mode-S Transponders can be upgraded to ADS-B out (up to SIL=3, depending on the certification level)
-- 978 MHz: **UAT** (Universal Access Transceiver, 10-20 W transmit power)
+- 978 MHz: **UAT** (**U**niversal **A**ccess **T**ransceiver, 10-20 W transmit power)
   - same functionality as 1090 MHz ES ADS-B
   - only approved/used in the US and only up to FL180
   - ADS-R, TIS-B and FIS-B from Ground Stations
 - 978 MHz: **UAT Ground Stations** provide the following:
-  - ADS-R: Rebroadcast of ADS-B information
+  - ADS-R: Rebroadcast of ADS-B information (by request only)
   - TIS-B: Traffic Information Service–Broadcast
   - FIS-B: Flight Information Services-Broadcast
 ## Data Protocols used by Tracker Devices and Avionics Equipment
 - OGN: [OGN Tracking Protocol Specification](http://wiki.glidernet.org/ogn-tracking-protocol)
+- NMEA: [NMEA](https://en.wikipedia.org/wiki/NMEA_0183)
 - FLARM-NMEA: [FLARM Data Port Interface Specification](https://www.flarm.com/wp-content/uploads/2025/05/FTD-012-Data-Port-Interface-Control-Document-ICD-7.21.pdf)
 - FANET: [FANET Protocol Specification](https://github.com/3s1d/fanet-stm32/blob/master/Src/fanet/radio/protocol.txt)
 - SRD 860 ADS-L: [ADS-L Specification](https://www.easa.europa.eu/en/downloads/137503/en&ved=2ahUKEwjZ7s-Dt8ONAxVGnf0HHe__GKwQFnoECBoQAQ&usg=AOvVaw2E8m3UcifYigBUuZ0SVv-x)
@@ -43,7 +46,7 @@ This is an effort to compile some fundamantal information about technologies for
 - [BEAST](https://github.com/firestuff/adsb-tools/blob/master/protocols/beast.md)
 - [JSON](https://github.com/firestuff/adsb-tools/blob/master/protocols/json.md)
 - [SBS/Basestation](http://woodair.net/sbs/article/barebones42_socket_data.htm)
-# Alternative Means to transport Traffic Information (using mobile phone network up to 5000 ft)
+# Alternative Means to transport Traffic Information (using mobile phone network)
 - APPs for mobile phones (1090 traffic e.g. from OpenSky or adsbhub.org, 868/1090 traffic from OGN)
   - https://www.safesky.app (provides GDL90 output to feed EFB Apps like SkyDemon or VFRnav)
   - https://ccas.aero (provides GDL90 output to feed EFB Apps like SkyDemon or VFRnav)
@@ -55,7 +58,7 @@ This is an effort to compile some fundamantal information about technologies for
   - receives ADS-B, FLARM, OGN, FANET
   - can be complemented with a TX module (e.g. T-Beam or T-Beam S3 Core)
 - https://github.com/moshe-braner/SoftRF
-  - supports FLARM/OGN TX and RX
+  - supports FLARM/OGN or FANET or PilotAware TX and RX
   - SoftRF fork with significant improvements (only available for T-Beam and T-Echo)
   - can be complemented with a GNS5892 board to receive 1090 ES ADS-B
 - https://github.com/gereic/GXAirCom
