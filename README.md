@@ -8,9 +8,9 @@ This is an effort to compile some fundamantal information about technologies for
     - ground speed, sink/climb rate, track over ground
     - aircraft ID (or ICAO hex code) and type
     - turn rate (FLARM only)
-- 869.525 MHz: **OGN**, **ADS-L**, **PilotAware** (500 mW TX power)
+- 869.4 – 869.65 MHz: **OGN**, **ADS-L**, **PilotAware** (500 mW TX power)
 
-Please note that the above ISM bands (including TX power limitations) are only applicable in Europe, other regions like US use 900 MHz, up to 100 mW and up to 65 channels.
+Please note that the above ISM bands (including TX power limitations) are only applicable in Europe (SRD 860), other regions like US use 900 MHz, up to 100 mW.
 - 1090 MHz: **Mode-S** (200 W transmit power)
   - the following data is transmitted when interrogated (selective) by ground radar (using 1030 MHz) or by other aircraft:
     - ICAO hex code (all-call reply, DF=11)
